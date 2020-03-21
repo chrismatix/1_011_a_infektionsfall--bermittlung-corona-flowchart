@@ -7,8 +7,9 @@
     background: white;
     position: fixed;
     height: 70px;
-    width: 100%;
     top: 0;
+    left: 0;
+    right: 0;
 
     display: flex;
     align-items: center;
@@ -33,9 +34,15 @@
     font-size: 16px;
     line-height: 70px;
 
+    margin-left: 24px;
+
     cursor: pointer;
     color: inherit;
     text-decoration: none;
+}
+
+.navbar-item:hover {
+    color: #2D2D2D;
 }
 
 .header {
@@ -56,12 +63,41 @@
 
 .header-content {
     margin-top: 12px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 16px;
     line-height: 20px;
 }
 
 .subheader {
     padding-top: 24px;
+}
+
+footer {
+    margin-top: 100px;
+    height: 86px;
+}
+
+.footer-item-group {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.14);
+}
+
+.footer-item {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-item:hover {
+    color: #2D2D2D;
 }
