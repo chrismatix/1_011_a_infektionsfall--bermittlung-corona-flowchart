@@ -55,6 +55,44 @@
     padding-top: 50px;
 }
 
+.button-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-default {
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 49px;
+
+    background: #6C63FF;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px #C4C1FF;
+    color: white;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+
+    cursor: pointer;
+}
+
+.button-default img {
+    padding-left: 6px;
+    width: 20px;
+    height: 20px;
+}
+
+.button-default path {
+    fill: white;
+}
+
+
 .headline {
     font-weight: bold;
     font-size: 42px;
@@ -73,6 +111,8 @@
 
 .subheader {
     padding-top: 24px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 footer {
