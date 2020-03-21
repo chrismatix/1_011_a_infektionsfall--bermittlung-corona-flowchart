@@ -1,5 +1,22 @@
 
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+.header {
+    margin-top: 20px;
+    text-align: center;
+}
 
 .headline {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+}
 
+.header-content {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 16px;
+    line-height: 20px;
 }
