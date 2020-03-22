@@ -10,9 +10,102 @@ other = "Stakeholder Analysis"
 # stakeholder tabelle
 [s-r1-c1]
 other = "Stakeholder"
-[s-r1-c1]
+[s-r1-c2]
 other = "Vorteile"
-[s-r1-c1]
+[s-r1-c3]
 other = "Aufgabe"
-[s-r1-c1]
+[s-r1-c4]
 other = "Zu Beachten"
+
+[s-r2-c1]
+other = "Betroffene und Kontaktpersonen 1. Grades"
+[s-r2-c2]
+other = "Direkte Möglichkeit ihr Anliegen zu melden, keine Warteschleifen in Hotlines."
+[s-r2-c3]
+other = "Das Formular muss selbsterklärend sein oder Hilfe bieten, ggf. Überleitung auf Chatbot mit allgemeinen Informationen."
+[s-r2-c4]
+other = "Zu Beachten"
+
+
+[s-r3-c1]
+other = "Meldepflichtige Stellen"
+[s-r3-c1-sub]
+other = "(Ärzte / Labore / Krankenhäuser)"
+[s-r3-c2]
+other = "Bisher handschriftliches Ausfüllen ausgedruckter Meldebögen und Übermittlung per Fax, zukünftig digitale Übermittlung der Meldung, weniger Aufwand schnellere Abarbeitung"
+[s-r3-c3]
+other = "Gute Usability, Hilfemenue nicht erforderlich, Schnittstellen zu Fachprogrammen und für die elektronische Akte."
+[s-r3-c4]
+other = """Datenschutz
+                             IT-Sicherheit
+                             Informationssicherheit"""
+
+[problems-headline]
+other = "Offene Probleme"
+
+[problem-header-1]
+other = "Dokumente & Prozesse angleichen / standardisieren und voneinander Lernen"
+
+[problem-content-1]
+other = """
+Unterschiedliche Gesundheitsämter rennen zu unterschiedlichen Zeiten in die gleichen Probleme und
+erfinden dann das Rad neu. Beispiel ist der Fragebogen der potenziell Infizierten, und der Aufwand
+der mit Template erstellen verbunden ist.Ein weiteres Beispiel ist der Meldebogen nach §6 f.
+Infektionsschutzgesetz. Dieser wird landesspezifisch in 16 Bundesländern entwickelt. Inhaltlich
+differieren die Formulare nur gering. Das Infektionsschutzgesetzt ist ein Bundesgesetz. Die zu
+meldenden Informationen sind im Wesentlichen für alle Bundesländer gleich. Eine Vereinheitlichung
+kann die aufzuwendenden Ressourcen für notwendige Anpassungen auf 1/16 reduzieren. Dadurch würde
+auch die Umsetzung des Onlinezugangsgesetzes gestützt, wenn der bundeseinheitliche Prozess der
+Meldung an das RKI standardisiert online zur Verfügung steht.
+"""
+
+[problem-header-2]
+other = "Probleme in der aktuellen Lage"
+
+[problem-content-2-1]
+other = """
+Die Anzahl der Meldungen ist erheblich angestiegen. Vor Beginn der Lage
+musste nicht eine solche Masse an Daten von den örtlichen Gesundheitsbehörden verarbeitet werden.
+Die oftmals selbstgebauten analogen oder teilweise digitalisierten Prozesse reichten aus, die
+Bedürfnisse vor Ort und die gesetzlichen Meldepflichten mit den vorhandenen Ressourcen zu
+erfüllen."""
+
+[problem-content-2-2]
+other = """
+Mit Beginn der Lage sind weitere Stakeholder hinzugekommen. Zum einen die
+örtlichen und überörtlichen Krisenstäbe, die tagesaktuelle Daten benötigen, um Entscheidungen
+treffen zu können. Die Stellen, in denen die analogen Daten in das System eingepflegt werden, sind
+personell nicht zeitnah zu unterstützen. Es handelt sich um dieselben Ressourcen, die parallel auch
+die Ermittlung von Kontaktpersonen übernehmen. Es ist offensichtlich, dass hier ein Flaschenhals
+entstanden ist, der es kaum noch ermöglicht, die Anforderungen zu erfüllen.Eine weitere Gruppe an
+Stakeholdern sind Bürger:innen, die sich Sorgen ob sie sich angesteckt haben. Während vor der Lage
+durch Ärzte und Labore die Erkrankungen festgestellt wurden, ist mittlerweile ein zusätzlicher
+Eingangskanal entstanden, in dem sich Bürger:innen umfassend direkt an die örtlichen
+Gesundheitsbehörden wenden. Eine weitestgehende automatisierte Datenverarbeitung und
+Datenübermittlung mit entsprechenden Auswertemöglichkeiten würde einmal die Ressourcen.
+"""
+
+
+[problem-header-3]
+other = "Datenschutz"
+
+[problem-content-3]
+other = """
+Die zu meldenden Daten unterliegen dem Gesundheitsdatenschutz und sind
+damit besonders schützenswert. An die Sicherheit der Übertragung von Daten ist ein besonders hoher
+Grad an Verschlüsselung anzulegen. Die Daten dürfen nicht in Cloud-Diensten gespeichert werden, die
+nicht datenschutzkonform sind. Es empfiehlt sich die Landesdatenschutzbeauftragten und den
+Bundesdatenschutzbeauftragten zu beteiligen.
+"""
+
+
+[methodology-header]
+other = "Methodology"
+
+[methodology-content]
+other = """
+Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein
+Westfalen und genauer
+dem Landkreis Soest.
+"""
+

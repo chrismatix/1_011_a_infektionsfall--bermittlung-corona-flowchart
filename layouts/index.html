@@ -8,7 +8,7 @@
 
     <section id="intro-section" class="anchor">
         <div class="header-image">
-            <img height="220px" src="/images/{{ index .Site.Data.images.hash " header-illustration.jpg" }}">
+            <img height="220px" src="/images/{{ index .Site.Data.images.hash "header-illustration.jpg" }}">
         </div>
 
         <h1 class="headline">Corona Selbstmelde Flow Chart</h1>
@@ -30,12 +30,12 @@
     <div class="button-row">
         <a href="downloads/diagram.pdf" class="button-default" download>
             PDF
-            <img src="/svg/{{ index .Site.Data.images.hash " download.svg" }}" alt="download">
+            <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
         </a>
 
         <a href="downloads/diagram.jpg" class="button-default" download>
             JPG
-            <img src="/svg/{{ index .Site.Data.images.hash " download.svg" }}" alt="download">
+            <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
         </a>
     </div>
 
@@ -47,28 +47,22 @@
         <div class="table-container">
             <div class="table-row table-row-top">
                 <div class="cell">{{ i18n "s-r1-c1" }}</div>
-                <div class="cell">Vorteile</div>
-                <div class="cell">Aufgabe</div>
-                <div class="cell">Zu Beachten</div>
+                <div class="cell">{{ i18n "s-r1-c2" }}</div>
+                <div class="cell">{{ i18n "s-r1-c3" }}</div>
+                <div class="cell">{{ i18n "s-r1-c4" }}</div>
             </div>
             <div class="table-row table-row-mid">
-                <p class="cell bold">Betroffene und Kontaktpersonen 1. Grades</p>
-                <p class="cell">Direkte Möglichkeit ihr Anliegen zu melden, keine Warteschleifen in Hotlines.</p>
-                <p class="cell">Das Formular muss selbsterklärend sein oder Hilfe bieten, ggf. Überleitung auf Chatbot
-                    mit allgemeinen Informationen.
-                </p>
-                <p class="cell">Zu beachten</p>
+                <p class="cell">{{ i18n "s-r2-c1" }}</p>
+                <p class="cell">{{ i18n "s-r2-c2" }}</p>
+                <p class="cell">{{ i18n "s-r2-c3" }}</p>
+                <p class="cell">{{ i18n "s-r2-c4" }}</p>
             </div>
             <div class="table-row table-row-bottom">
-                <div class="cell"><p class="bold">Meldepflichtige Stellen</p>
-                    <p>(Ärzte / Labore / Krankenhäuser)</p></div>
-                <p class="cell">Bisher handschriftliches Ausfüllen ausgedruckter Meldebögen und Übermittlung per Fax,
-                    zukünftig digitale Übermittlung der Meldung, weniger Aufwand schnellere Abarbeitung</p>
-                <p class="cell">Gute Usability, Hilfemenue nicht erforderlich, Schnittstellen zu Fachprogrammen und für
-                    die elektronische Akte.</p>
-                <p class="cell">Datenschutz
-                    IT-Sicherheit
-                    Informationssicherheit</p>
+                <div class="cell"><p class="bold">{{ i18n "s-r3-c1" }}</p>
+                    <p>{{ i18n "s-r3-c1-sub" }}</p></div>
+                <p class="cell">{{ i18n "s-r3-c2" }}</p>
+                <p class="cell">{{ i18n "s-r3-c3" }}</p>
+                <p class="cell">{{ i18n "s-r3-c4" }}</p>
             </div>
         </div>
     </section>
@@ -78,83 +72,36 @@
     <section id="problem-section" class="anchor">
 
         <div class="header-image">
-            <img height="252px" src="/svg/{{ index .Site.Data.images.hash " open-problems.svg" }}" alt="open problems
+            <img height="252px" src="/svg/{{ index .Site.Data.images.hash "open-problems.svg" }}" alt="open problems
             illustrations">
         </div>
 
-        <h2 class="headline">Offene Probleme</h2>
+        <h2 class="headline"></h2>
 
         <div class="avatar-row">
-            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash "
-                 img_document-process.jpg" }}"/>
+            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash "img_document-process.jpg" }}"/>
             <div class="avatar-row-column">
-                <h3 class="avatar-row-header">Dokumente & Prozesse angleichen / standardisieren und voneinander
-                    Lernen</h3>
-                <p class="avatar-row-content"> Unterschiedliche Gesundheitsämter rennen zu unterschiedlichen Zeiten in
-                    die gleichen Probleme und
-                    erfinden dann das Rad neu. Beispiel ist der Fragebogen der potenziell Infizierten, und der Aufwand
-                    der mit Template erstellen verbunden ist.Ein weiteres Beispiel ist der Meldebogen nach §6 f.
-                    Infektionsschutzgesetz. Dieser wird landesspezifisch in 16 Bundesländern entwickelt. Inhaltlich
-                    differieren die Formulare nur gering. Das Infektionsschutzgesetzt ist ein Bundesgesetz. Die zu
-                    meldenden Informationen sind im Wesentlichen für alle Bundesländer gleich. Eine Vereinheitlichung
-                    kann die aufzuwendenden Ressourcen für notwendige Anpassungen auf 1/16 reduzieren. Dadurch würde
-                    auch die Umsetzung des Onlinezugangsgesetzes gestützt, wenn der bundeseinheitliche Prozess der
-                    Meldung an das RKI standardisiert online zur Verfügung steht.</p>
+                <h3 class="avatar-row-header">{{ i18n "problem-headers-1" }}</h3>
+                <p class="avatar-row-content">{{ i18n "problem-content-1" }}</p>
             </div>
         </div>
 
         <div class="avatar-row">
-            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash " img_problem.jpg"
-            }}"/>
+            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash "img_problem.jpg" }}"/>
             <div class="avatar-row-column">
-                <h3 class="avatar-row-header">Probleme in der aktuellen Lage</h3>
-                <p class="avatar-row-content">Die Anzahl der Meldungen ist erheblich angestiegen. Vor Beginn der Lage
-                    musste nicht eine solche Masse an Daten von den örtlichen Gesundheitsbehörden verarbeitet werden.
-                    Die oftmals selbstgebauten analogen oder teilweise digitalisierten Prozesse reichten aus, die
-                    Bedürfnisse vor Ort und die gesetzlichen Meldepflichten mit den vorhandenen Ressourcen zu
-                    erfüllen.</p>
-                <p class="avatar-row-content">Mit Beginn der Lage sind weitere Stakeholder hinzugekommen. Zum einen die
-                    örtlichen und überörtlichen Krisenstäbe, die tagesaktuelle Daten benötigen, um Entscheidungen
-                    treffen zu können. Die Stellen, in denen die analogen Daten in das System eingepflegt werden, sind
-                    personell nicht zeitnah zu unterstützen. Es handelt sich um dieselben Ressourcen, die parallel auch
-                    die Ermittlung von Kontaktpersonen übernehmen. Es ist offensichtlich, dass hier ein Flaschenhals
-                    entstanden ist, der es kaum noch ermöglicht, die Anforderungen zu erfüllen.Eine weitere Gruppe an
-                    Stakeholdern sind Bürger:innen, die sich Sorgen ob sie sich angesteckt haben. Während vor der Lage
-                    durch Ärzte und Labore die Erkrankungen festgestellt wurden, ist mittlerweile ein zusätzlicher
-                    Eingangskanal entstanden, in dem sich Bürger:innen umfassend direkt an die örtlichen
-                    Gesundheitsbehörden wenden. Eine weitestgehende automatisierte Datenverarbeitung und
-                    Datenübermittlung mit entsprechenden Auswertemöglichkeiten würde einmal die Ressourcen</p>
+                <h3 class="avatar-row-header">{{ i18n "problem-headers-2" }}</h3>
+                <p class="avatar-row-content">{{ i18n "problem-content-2-1" }}</p>
+                <p class="avatar-row-content">{{ i18n "problem-content-2-2" }}</p>
             </div>
         </div>
 
         <div class="avatar-row">
-            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash " img_policy.jpg"
-            }}"/>
+            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash "img_policy.jpg" }}"/>
             <div class="avatar-row-column">
-                <h3 class="avatar-row-header">Datenschutz</h3>
-                <p class="avatar-row-content">Die zu meldenden Daten unterliegen dem Gesundheitsdatenschutz und sind
-                    damit besonders schützenswert. An die Sicherheit der Übertragung von Daten ist ein besonders hoher
-                    Grad an Verschlüsselung anzulegen. Die Daten dürfen nicht in Cloud-Diensten gespeichert werden, die
-                    nicht datenschutzkonform sind. Es empfiehlt sich die Landesdatenschutzbeauftragten und den
-                    Bundesdatenschutzbeauftragten zu beteiligen.</p>
+                <h3 class="avatar-row-header">{{ i18n "problem-headers-3" }}</h3>
+                <p class="avatar-row-content">{{ i18n "problem-content-3" }}</p>
             </div>
         </div>
-    </section>
-
-    <div class="divider"></div>
-
-    <section class="anchor">
-
-        <div class="header-image">
-            <img height="252px" src="/images/{{ index .Site.Data.images.hash " img_document-process.jpg" }}" alt="open
-            problems illustrations">
-        </div>
-
-        <h2 class="headline">Motivation</h2>
-
-        <p class="header-content">Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein
-            Westfalen und genauer
-            dem Landkreis Soest.</p>
     </section>
 
     <div class="divider"></div>
@@ -162,37 +109,23 @@
     <section id="methodology-section" class="anchor">
 
         <div class="header-image">
-            <img height="252px" src="/svg/{{ index .Site.Data.svg.hash " motivation.svg" }}" alt="open problems
-            illustrations">
+            <img height="252px" src="/svg/{{ index .Site.Data.svg.hash "motivation.svg" }}" alt="open problems illustrations">
         </div>
 
-        <h2 class="headline">Methodologie</h2>
+        <h2 class="headline">{{ i18n "methodology-header" }}</h2>
 
-        <p class="header-content">Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein
-            Westfalen und genauer
-            dem Landkreis Soest.</p>
+        <p class="header-content">{{ i18n "methodology-content" }}</p>
     </section>
 
     <section id="weitere-section" class="anchor">
 
-        <div class="header-image">
-            <img height="252px" src="/svg/{{ index .Site.Data.svg.hash " motivation.svg" }}" alt="open problems
-            illustrations">
-        </div>
-
         <h2 class="headline">Further Work</h2>
-
-        <p class="header-content">Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein
-            Westfalen und genauer
-            dem Landkreis Soest.</p>
     </section>
 
 </div>
 
 {{ partial "footer.html" . }}
 
-<script src="/js/{{ index .Site.Data.js.hash " index.js
-" }}"></script>
-<
-/body>
-< /html>
+<script src="/js/{{ index .Site.Data.js.hash "index.js" }}"></script>
+</body>
+</html>
