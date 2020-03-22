@@ -4,6 +4,13 @@ other = "Wir haben es uns zur Aufgabe gemacht, die verschiedenen staatlichen Pro
 [resources]
 other = "Alle wichtigen Resourcen auf einem Blick"
 
+[diagram-complete]
+other = "Kompletter Meldeprozess"
+[diagram-normal]
+other = "Prozess Normalbelastung"
+[diagram-overload]
+other = "Prozess Überlastung"
+
 [stakeholder-header]
 other = "Stakeholder Analysis"
 

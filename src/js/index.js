@@ -48,3 +48,41 @@ function checkNavbarStyle () {
 window.addEventListener("scroll", checkNavbarStyle);
 
 checkNavbarStyle();
+
+// tab bars
+
+function openTab(evt) {
+    // Declare all variables
+    var i, tabcontent, tablinks, toShow;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tab-links");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    var tabClass = evt.currentTarget.id.slice(0, -3);
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    toShow = document.getElementsByClassName(tabClass);
+
+    for (i = 0; i < toShow.length; i++) {
+        toShow[i].style.display = "block";
+    }
+
+    evt.currentTarget.className += " active";
+}
+(function () {
+    var hash = location.hash;
+
+    if (hash.length > 1) {
+        var clickOn = hash.substring(1) + "Tab";
+        document.getElementById(clickOn).click();
+    }
+})();
