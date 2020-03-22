@@ -1,5 +1,5 @@
 [header-content]
-other = "Wir haben es uns zur Aufgabe gemacht, die verschiedenen staatlichen Prozesse vom ersten Patientenkontakt bis zur Bekanntgabe an das Robert Koch Institut (RKI) zusammenzufassen, aufzubereiten und Vorschläge für Verbesserung zu sammeln. Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein Westfalen und genauer dem Landkreis Soets."
+other = "Wir haben es uns zur Aufgabe gemacht, die verschiedenen staatlichen Prozesse vom ersten Patientenkontakt bis zur Bekanntgabe an das Robert Koch Institut (RKI) zusammenzufassen, aufzubereiten und Vorschläge für Verbesserung zu sammeln."
 
 [resources]
 other = "Alle wichtigen Resourcen auf einem Blick"
@@ -31,7 +31,7 @@ other = "Direkte Möglichkeit ihr Anliegen zu melden, keine Warteschleifen in Ho
 [s-r2-c3]
 other = "Das Formular muss selbsterklärend sein oder Hilfe bieten, ggf. Überleitung auf Chatbot mit allgemeinen Informationen."
 [s-r2-c4]
-other = "Zu Beachten"
+other = "Datenschutz"
 
 
 [s-r3-c1]
@@ -39,80 +39,106 @@ other = "Meldepflichtige Stellen"
 [s-r3-c1-sub]
 other = "(Ärzte / Labore / Krankenhäuser)"
 [s-r3-c2]
-other = "Bisher handschriftliches Ausfüllen ausgedruckter Meldebögen und Übermittlung per Fax, zukünftig digitale Übermittlung der Meldung, weniger Aufwand schnellere Abarbeitung"
+other = "Bisher handschriftliches Ausfüllen ausgedruckter Meldebögen und Übermittlung per Fax, zukünftig digitale Übermittlung der Meldung, weniger Aufwand schnellere Abarbeitung."
 [s-r3-c3]
 other = "Gute Usability, Hilfemenue nicht erforderlich, Schnittstellen zu Fachprogrammen und für die elektronische Akte."
 [s-r3-c4]
+other = "Datenschutz"
+
+
+[s-r4-c1]
+other = "Gesundheitsämter"
+[s-r4-c2]
+other = "Meldungen werden digital eingereicht, keine doppelte Erfassung in Fachanwendungen, tagesaktuelle Daten für Entscheidungen des Krisenstabs. Deutliche Entlastung von Hotlines, optimaler Einsatz der knappen personellen Ressourcen."
+[s-r4-c3]
+other = "Die Daten müssen auswertbar sein über Schnittstellen z.B. zu BI-Tools, zu e-Akten und Survnet. Die Oberfläche muss selbsterklärend sein (schnelle Einarbeitung neuer und fachfremder Mitarbeiter)."
+[s-r4-c4]
 other = """Datenschutz
-                             IT-Sicherheit
-                             Informationssicherheit"""
+IT-Sicherheit
+Informationssicherheit
+"""
+
+
+[s-r5-c1]
+other = "Landesgesundheitsbehörden"
+[s-r5-c1-sub]
+other = "(z.B. LZG NRW)"
+[s-r5-c2]
+other = "Im aktuellen Szenario ändert sich im Prozess zunächst nichts, die Daten kommen weiterhin über Survnet. Ggf. gibt es Ideen den Rücklauf statistischer Daten vom RKI zu betrachten, um die Informationsverarbeitung und -weitergabe zu verbessern. Hier ist sicherlich Potential."
+[s-r5-c3]
+other = "Der interne Prozess zur Informations-verarbeitung konnte noch nicht näher identifiziert werden. Potenziell sollten auch hier tagesaktuelle und leicht auswertbare Daten weiterhelfen."
+[s-r5-c4]
+other = """Datenschutz
+IT-Sicherheit
+Informationssicherheit
+"""
+
+
+[s-r6-c1]
+other = "IT-Abteilungen der Landkreise"
+[s-r6-c2]
+other = "Vereinfachte Auswertung und tagesaktuelle Daten für die Erstellung der Lageberichte für die Krisenstäbe, tagesaktuelle Daten zur Unterstützung der Verwaltungssteuerung. Möglichkeiten die Anzahl unterschiedlicher Übertragungswege zu reduzieren (z.B. Fax) und damit Supportaufwand zu reduzieren."
+[s-r6-c3]
+other = "Die Daten müssen auswertbar sein über Schnittstellen z.B. zu BI-Tools und Schnittstellen zu e-Akten und Survnet."
+[s-r6-c4]
+other = """Datenschutz
+IT-Sicherheit
+Informationssicherheit
+"""
+
+
+[s-r7-c1]
+other = "Robert-Koch-Institut (RKI)"
+[s-r7-c2]
+other = "Im aktuellen Szenario ändert sich im Prozess zunächst nichts, die Daten kommen weiterhin über Survnet. Die Meldung tagesaktueller Daten ermöglicht einen besseren Überblick über die dynamische Lageentwicklung."
+[s-r7-c3]
+other = "Der interne Prozess zur Informationsverarbeitung konnte noch nicht näher identifiziert werden. Potenziell sollte auch das RKI von tagesaktuellen und leicht auswertbaren Daten profitieren."
+[s-r7-c4]
+other = """Datenschutz
+IT-Sicherheit
+Informationssicherheit
+"""
 
 [problems-headline]
 other = "Offene Probleme"
 
-[problem-header-1]
-other = "Dokumente & Prozesse angleichen / standardisieren und voneinander Lernen"
+[problem-headers-1]
+other = "Dokumente & Prozesse angleichen/standardisieren und voneinander Lernen"
 
 [problem-content-1]
 other = """
-Unterschiedliche Gesundheitsämter rennen zu unterschiedlichen Zeiten in die gleichen Probleme und
-erfinden dann das Rad neu. Beispiel ist der Fragebogen der potenziell Infizierten, und der Aufwand
-der mit Template erstellen verbunden ist.Ein weiteres Beispiel ist der Meldebogen nach §6 f.
-Infektionsschutzgesetz. Dieser wird landesspezifisch in 16 Bundesländern entwickelt. Inhaltlich
-differieren die Formulare nur gering. Das Infektionsschutzgesetzt ist ein Bundesgesetz. Die zu
-meldenden Informationen sind im Wesentlichen für alle Bundesländer gleich. Eine Vereinheitlichung
-kann die aufzuwendenden Ressourcen für notwendige Anpassungen auf 1/16 reduzieren. Dadurch würde
-auch die Umsetzung des Onlinezugangsgesetzes gestützt, wenn der bundeseinheitliche Prozess der
-Meldung an das RKI standardisiert online zur Verfügung steht.
+Unterschiedliche Gesundheitsämter rennen zu unterschiedlichen Zeiten in die gleichen Probleme und erfinden dann das Rad neu.
+Ein einfaches Beispiel ist das Script der Abfragen der potenziell Infizierten, auf das jedes Gesundheitsamt neu kommen muss, und der Aufwand der mit dem Erstellen der Templates verbunden ist.
+Ein weiteres Beispiel ist der Meldebogen nach §6 f. Infektionsschutzgesetz. Dieser wird landesspezifisch in 16 Bundesländern entwickelt. Inhaltlich differieren die Formulare nur wenig. Das Infektionsschutzgesetzt ist ein Bundesgesetz. Die zu meldenden Informationen sind im Wesentlichen für alle Bundesländer gleich. Eine Vereinheitlichung kann die aufzuwendenden Ressourcen für notwendige Anpassungen auf 1/16 reduzieren. Dadurch würde auch die Umsetzung des Onlinezugangsgesetzes gestützt, wenn der bundeseinheitliche Prozess der Meldung an das RKI standardisiert online zur Verfügung steht.
 """
 
-[problem-header-2]
-other = "Probleme in der aktuellen Lage"
+[problem-headers-2]
+other = "Probleme in der überlastenden Lage"
 
 [problem-content-2-1]
 other = """
-Die Anzahl der Meldungen ist erheblich angestiegen. Vor Beginn der Lage
-musste nicht eine solche Masse an Daten von den örtlichen Gesundheitsbehörden verarbeitet werden.
-Die oftmals selbstgebauten analogen oder teilweise digitalisierten Prozesse reichten aus, die
-Bedürfnisse vor Ort und die gesetzlichen Meldepflichten mit den vorhandenen Ressourcen zu
-erfüllen."""
-
-[problem-content-2-2]
-other = """
-Mit Beginn der Lage sind weitere Stakeholder hinzugekommen. Zum einen die
-örtlichen und überörtlichen Krisenstäbe, die tagesaktuelle Daten benötigen, um Entscheidungen
-treffen zu können. Die Stellen, in denen die analogen Daten in das System eingepflegt werden, sind
-personell nicht zeitnah zu unterstützen. Es handelt sich um dieselben Ressourcen, die parallel auch
-die Ermittlung von Kontaktpersonen übernehmen. Es ist offensichtlich, dass hier ein Flaschenhals
-entstanden ist, der es kaum noch ermöglicht, die Anforderungen zu erfüllen.Eine weitere Gruppe an
-Stakeholdern sind Bürger:innen, die sich Sorgen ob sie sich angesteckt haben. Während vor der Lage
-durch Ärzte und Labore die Erkrankungen festgestellt wurden, ist mittlerweile ein zusätzlicher
-Eingangskanal entstanden, in dem sich Bürger:innen umfassend direkt an die örtlichen
-Gesundheitsbehörden wenden. Eine weitestgehende automatisierte Datenverarbeitung und
-Datenübermittlung mit entsprechenden Auswertemöglichkeiten würde einmal die Ressourcen.
+Die Anzahl der Meldungen ist erheblich angestiegen. Vor Beginn der Lage musste nicht eine solche Masse an Daten von den örtlichen Gesundheitsbehörden verarbeitet werden. Die oftmals selbstgebauten analogen oder teilweise digitalisierten Prozesse reichten aus, die Bedürfnisse vor Ort und die gesetzlichen Meldepflichten mit den vorhandenen Ressourcen zu erfüllen.
+Mit Beginn der Lage sind weitere Stakeholder hinzugekommen. Zum einen die örtlichen und überörtlichen Krisenstäbe, die tagesaktuelle Daten benötigen, um Entscheidungen treffen zu können. Die Stellen, in denen die analogen Daten in das System eingepflegt werden, sind personell nicht zeitnah zu unterstützen. Es handelt sich um dieselben Ressourcen, die parallel auch die Ermittlung von Kontaktpersonen übernehmen. Es ist offensichtlich, dass hier ein Flaschenhals entstanden ist, der es kaum noch ermöglicht, die Anforderungen zu erfüllen.Eine weitere Gruppe an Stakeholdern sind Bürger:innen, die sich Sorgen ob sie sich angesteckt haben. Während vor der Lage durch Ärzte und Labore die Erkrankungen festgestellt wurden, ist mittlerweile ein zusätzlicher Eingangskanal entstanden, in dem sich Bürger:innen umfassend direkt an die örtlichen Gesundheitsbehörden wenden.
 """
 
 
-[problem-header-3]
+[problem-headers-3]
 other = "Datenschutz"
 
 [problem-content-3]
 other = """
-Die zu meldenden Daten unterliegen dem Gesundheitsdatenschutz und sind
-damit besonders schützenswert. An die Sicherheit der Übertragung von Daten ist ein besonders hoher
-Grad an Verschlüsselung anzulegen. Die Daten dürfen nicht in Cloud-Diensten gespeichert werden, die
-nicht datenschutzkonform sind. Es empfiehlt sich die Landesdatenschutzbeauftragten und den
-Bundesdatenschutzbeauftragten zu beteiligen.
+Die zu meldenden Daten unterliegen dem Gesundheitsdatenschutz und sind damit besonders schützenswert. An die Sicherheit der Übertragung von Daten ist ein besonders hoher Grad an Verschlüsselung anzulegen. Die Daten dürfen nicht in Cloud-Diensten gespeichert werden, die nicht datenschutzkonform sind. Es empfiehlt sich die Landesdatenschutzbeauftragten und den Bundesdatenschutzbeauftragten zu beteiligen.
 """
 
 
 [methodology-header]
-other = "Methodology"
+other = "Methodologie"
 
 [methodology-content]
 other = """
-Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein
-Westfalen und genauer
-dem Landkreis Soest.
+Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein Westfalen, vom Gesundheitsamt und dem Landkreis Soest. Weitere Interviews und ausführliche Recherche von RKI Dokumentation haben den Prozess erweitert. Länder mit hohem Infizierten Anteil wurden für den überlasteten Prozess untersucht und die Prozesse verglichen.
 """
 
+
+[further-work-header]
+other = "Weitere Arbeit"

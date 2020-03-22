@@ -5,3 +5,37 @@ description = "TODO"
 googleAnalytics = "UA-129774101-2"
 
 DefaultContentLanguage = "de"
+
+[languages.de]
+weight = 0
+languageName = "Deutsch"
+
+    [[languages.de.menu.main]]
+    url    = "#intro-section"
+    name   = "Intro"
+    weight = 1
+
+    [[languages.de.menu.main]]
+    url    = "#process-section"
+    name   = "Prozess"
+    weight = 2
+
+    [[languages.de.menu.main]]
+    url    = "#stakeholder-section"
+    name   = "Stakeholder"
+    weight = 3
+
+    [[languages.de.menu.main]]
+    url    = "#problem-section"
+    name   = "Probleme"
+    weight = 4
+
+    [[languages.de.menu.main]]
+    url    = "#methodology-section"
+    name   = "Methodologie"
+    weight = 5
+
+    [[languages.de.menu.main]]
+    url    = "#weitere-section"
+    name   = "Weitere Arbeit"
+    weight = 6

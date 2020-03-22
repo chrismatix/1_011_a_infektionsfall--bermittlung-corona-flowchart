@@ -53,7 +53,7 @@ checkNavbarStyle();
 
 function openTab(evt) {
     // Declare all variables
-    var i, tabcontent, tablinks, toShow;
+    let i, tabcontent, tablinks, toShow;
 
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tab-content");
@@ -67,7 +67,7 @@ function openTab(evt) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
 
-    var tabClass = evt.currentTarget.id.slice(0, -3);
+    const tabClass = evt.currentTarget.id.slice(0, -3);
 
     // Show the current tab, and add an "active" class to the button that opened the tab
     toShow = document.getElementsByClassName(tabClass);
@@ -79,10 +79,10 @@ function openTab(evt) {
     evt.currentTarget.className += " active";
 }
 (function () {
-    var hash = location.hash;
+    const hash = location.hash;
 
     if (hash.length > 1) {
-        var clickOn = hash.substring(1) + "Tab";
+        const clickOn = hash.substring(1) + "Tab";
         document.getElementById(clickOn).click();
     }
 })();

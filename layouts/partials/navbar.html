@@ -4,11 +4,9 @@
     </a>
 
     <div class="navbar-item-group">
-        <a class="navbar-item" href="#intro-section">Intro</a>
-        <a class="navbar-item" href="#process-section">Prozess</a>
-        <a class="navbar-item" href="#stakeholder-section">Stakeholder</a>
-        <a class="navbar-item" href="#problem-section">Probleme</a>
-        <a class="navbar-item" href="#methodology-section">Methodology</a>
-        <a class="navbar-item" href="#weitere-section">Weitere Arbeit</a>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            <a class="navbar-item" href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
     </div>
 </nav>

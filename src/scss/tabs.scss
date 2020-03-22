@@ -2,7 +2,7 @@
 .tab-container {
   display: flex;
   justify-content: center;
-  margin-top: 32px;
+  margin-top: 48px;
 
   .tab-links {
     margin-left: 24px;
@@ -28,6 +28,7 @@
 }
 
 .tab-content {
+  margin-top: 32px;
   animation: fadeEffect 0.5s; /* Fading effect takes 1 second */
 
   display: none;

@@ -18,7 +18,7 @@
     <meta property="og:description"
           content="Übersicht und Problemanalyse der Selbstauskunfts- und Patientenüberwachungsprozesse des Covid-19 Ausbruchs im Rahmen des WirVsVirus Hackathons der Bundesregierung.">
     <meta property="og:image"
-          content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+          content="/images/{{ index .Site.Data.images.hash "social-share.jpg" }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -27,7 +27,7 @@
     <meta property="twitter:description"
           content="Übersicht und Problemanalyse der Selbstauskunfts- und Patientenüberwachungsprozesse des Covid-19 Ausbruchs im Rahmen des WirVsVirus Hackathons der Bundesregierung.">
     <meta property="twitter:image"
-          content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+          content="/images/{{ index .Site.Data.images.hash "social-share.jpg" }}">
 
     {{ if eq (getenv "ENV") "production" }}
         {{ template "_internal/google_analytics_async.html" . }}
