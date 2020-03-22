@@ -33,8 +33,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="index.css">
-
-    <script src="main.js"></script>
 </head>
 <body>
 
@@ -54,33 +52,46 @@
     </a>
 
     <div class="navbar-item-group">
-        <a class="navbar-item" href="#challenges-section">Projekt</a>
-        <a class="navbar-item" href="#detailed-section">Detaillierter Prozess</a>
+        <a class="navbar-item" href="#intro-section">Intro</a>
+        <a class="navbar-item" href="#process-section">Prozess</a>
+        <a class="navbar-item" href="#stakeholder-section">Stakeholder</a>
+        <a class="navbar-item" href="#problem-section">Probleme</a>
+        <a class="navbar-item" href="#methodology-section">Methodology</a>
+        <a class="navbar-item" href="#weitere-section">Weitere Arbeit</a>
+
+        <!--Intro		Prozess	Stakeholder	Probleme & Moeglichkeiten 		-->
     </div>
 </nav>
 
 <div class="header">
 
-    <div class="header-image">
-        <img height="220px" src="images/header-illustration.jpg">
-    </div>
+    <section id="intro-section" class="anchor">
+        <div class="header-image">
+            <img height="220px" src="images/header-illustration.jpg">
+        </div>
 
-    <h1 class="headline">Corona Selbstmelde Flow Chart</h1>
+        <h1 class="headline">Corona Selbstmelde Flow Chart</h1>
 
-    <p class="header-content">
-        Wir haben es uns zur Aufgabe gemacht, die verschiedenen staatlichen Prozesse vom ersten Patientenkontakt bis zur
-        Bekanntgabe an das Robert Koch Institut (RKI) zusammenzufassen, aufzubereiten und Vorschläge für Verbesserung zu
-        sammeln.
-        Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein Westfalen und genauer dem
-        Landkreis Soets.
-    </p>
+        <p class="header-content">
+            Wir haben es uns zur Aufgabe gemacht, die verschiedenen staatlichen Prozesse vom ersten Patientenkontakt bis
+            zur
+            Bekanntgabe an das Robert Koch Institut (RKI) zusammenzufassen, aufzubereiten und Vorschläge für
+            Verbesserung zu
+            sammeln.
+            Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein Westfalen und genauer
+            dem
+            Landkreis Soets.
+        </p>
 
+    </section>
     <p class="header-content"><strong><a
             href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQTgBVglAWpRqYRFpNCmWUm9ZkSdfPu8T-0nQASuOXf9whAIcBmbJh8mSpTVeeln-9oOSBDCrst0FWV/pubhtml?gid=112319258&single=true">Alle
         wichtigen Resourcen auf einem Blick</a></strong></p>
 
-    <img src="https://docs.google.com/drawings/d/e/2PACX-1vRJOKZJ-Ch_iQxy1Xa8OQWokyQp3fYzZBC-iTxS2q-r1j882zfxKC2tsvWH9CQh5341RODHPX1CmJIO/pub?h=1200"
-         alt="Vereinfachtes Prozessdiagramm">
+    <section id="process-section" class="anchor">
+        <img src="https://docs.google.com/drawings/d/e/2PACX-1vRJOKZJ-Ch_iQxy1Xa8OQWokyQp3fYzZBC-iTxS2q-r1j882zfxKC2tsvWH9CQh5341RODHPX1CmJIO/pub?h=1200"
+             alt="Vereinfachtes Prozessdiagramm">
+    </section>
 
     <div class="button-row">
         <a href="downloads/diagram.pdf" class="button-default" download>
@@ -96,9 +107,9 @@
 
     <div class="divider"></div>
 
-    <h2 class="headline">Stakeholder Analysis</h2>
+    <section id="stakeholder-section" class="anchor">
+        <h2 class="headline">Stakeholder Analysis</h2>
 
-    <section class="anchor">
         <div class="table-container">
             <div class="table-row table-row-top">
                 <div class="cell">Stakeholder</div>
@@ -130,7 +141,7 @@
 
     <div class="divider"></div>
 
-    <section class="anchor">
+    <section id="problem-section" class="anchor">
 
         <div class="header-image">
             <img height="252px" src="vector/open-problems.svg" alt="open problems illustrations">
@@ -209,13 +220,26 @@
 
     <div class="divider"></div>
 
-    <section class="anchor">
+    <section id="methodology-section" class="anchor">
 
         <div class="header-image">
             <img height="252px" src="vector/motivation.svg" alt="open problems illustrations">
         </div>
 
         <h2 class="headline">Methodologie</h2>
+
+        <p class="header-content">Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein
+            Westfalen und genauer
+            dem Landkreis Soest.</p>
+    </section>
+
+    <section id="weitere-section" class="anchor">
+
+        <div class="header-image">
+            <img height="252px" src="vector/motivation.svg" alt="open problems illustrations">
+        </div>
+
+        <h2 class="headline">Further Work</h2>
 
         <p class="header-content">Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein
             Westfalen und genauer
@@ -230,5 +254,6 @@
     </div>
 </footer>
 
+<script src="main.js"></script>
 </body>
 </html>
