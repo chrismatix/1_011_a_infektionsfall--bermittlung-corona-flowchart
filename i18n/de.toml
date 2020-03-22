@@ -1,8 +1,11 @@
+[headline]
+other = "Covid19 Meldeprozess"
+
 [one-liner]
 other="Der Informationsflow von Bürger:innen zum Robert-Koch-Institut."
 
 [header-content]
-other = "Wir haben es uns zur Aufgabe gemacht, die verschiedenen staatlichen Prozesse vom ersten Patientenkontakt bis zur Bekanntgabe an das Robert Koch Institut (RKI) zusammenzufassen, aufzubereiten und Vorschläge für Verbesserung zu sammeln."
+other = "Wir haben es uns zur Aufgabe gemacht, die verschiedenen staatlichen Prozesse vom ersten Patientenkontakt bis zur Bekanntgabe eines Falls an das Robert Koch Institut (RKI) zusammenzufassen, aufzubereiten und Vorschläge für Verbesserung zu sammeln."
 
 
 [resources]
@@ -127,9 +130,18 @@ Mit Beginn der Lage sind weitere Stakeholder hinzugekommen. Zum einen die örtli
 
 
 [problem-headers-3]
-other = "Datenschutz"
+other = "Entscheider brauchen aktuellere und umfangreichere Daten"
 
 [problem-content-3]
+other = """
+Momentan dauert es 2-5 Tage bis ein lokal gemeldeter Fall in der Datenbank des Robert-Koch Instituts und damit für die Bundesregierung sichtbar ankommt (https://www.tagesschau.de/faktenfinder/zahlen-coronavirus-101.html). Zudem findet ein erheblicher Datenverlust statt: Die über 400 Gesundheitsämter sammeln durch ihre Arbeit Daten, die jeweils den lokalen Überblick geben über: Infektionsherde, individuelle Infektionsverläufe, wie viele Menschen mit welchen Symptomen negativ oder positiv getestet wurden. Das RKI und damit die Bundesregierung erhält gemäß der aktuellen Meldepflicht jedoch nur die Anzahl positiv getesteter Fälle - und das mit einer Verspätung von bis zu einer Arbeitswoche. Damit geht eine Fülle an wertvollen Informationen verloren, die für Handlungsstrategien gegen das neue Virus wichtig sein können.
+"""
+
+
+[problem-headers-4]
+other = "Datenschutz"
+
+[problem-content-4]
 other = """
 Die zu meldenden Daten unterliegen dem Gesundheitsdatenschutz und sind damit besonders schützenswert. An die Sicherheit der Übertragung von Daten ist ein besonders hoher Grad an Verschlüsselung anzulegen. Die Daten dürfen nicht in Cloud-Diensten gespeichert werden, die nicht datenschutzkonform sind. Es empfiehlt sich die Landesdatenschutzbeauftragten und den Bundesdatenschutzbeauftragten zu beteiligen.
 """
