@@ -1,0 +1,6 @@
+baseURL = "https://ranking.weview.tv/"
+languageCode = "de"
+title = "Corona Prozessmeldung"
+description = "TODO"
+
+# googleAnalytics = "UA-73135173-2"

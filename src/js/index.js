@@ -8,14 +8,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-var navLinks = document.querySelectorAll('a[href^="#"]');
-
 var upperX = [];
 
-navLinks.forEach(function (link) {
-    console.debug(link.href);
+document.querySelectorAll('a[href^="#"]').forEach(function (link) {
     var id = link.href.split("#")[1];
-    console.log("id :" + id);
     upperX.push({
         offsetTop: document.getElementById(id).offsetTop, link
     });
@@ -37,14 +33,14 @@ for (var i = 0; i < upperX.length; i++) {
     }
 }
 
-console.debug('sectionRanges', sectionRanges);
+var activeClass = "active";
 
 function checkNavbarStyle () {
     sectionRanges.forEach(function (section) {
         if (window.pageYOffset >= section.range[0] && window.pageYOffset < section.range[1]) {
-            section.link.classList.add("bold");
+            section.link.classList.add(activeClass);
         } else {
-            section.link.classList.remove("bold");
+            section.link.classList.remove(activeClass);
         }
     })
 }

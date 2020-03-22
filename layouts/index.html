@@ -1,0 +1,196 @@
+{{ partial "head.html" . }}
+
+<body>
+
+{{ partial "navbar.html" . }}
+
+<div class="header">
+
+    <section id="intro-section" class="anchor">
+        <div class="header-image">
+            <img height="220px" src="/images/{{ index .Site.Data.images.hash "header-illustration.jpg" }}">
+        </div>
+
+        <h1 class="headline">Corona Selbstmelde Flow Chart</h1>
+
+        <p class="header-content">
+            Wir haben es uns zur Aufgabe gemacht, die verschiedenen staatlichen Prozesse vom ersten Patientenkontakt bis
+            zur
+            Bekanntgabe an das Robert Koch Institut (RKI) zusammenzufassen, aufzubereiten und Vorschläge für
+            Verbesserung zu
+            sammeln.
+            Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein Westfalen und genauer
+            dem
+            Landkreis Soets.
+        </p>
+
+    </section>
+    <p class="header-content"><strong><a
+            href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQTgBVglAWpRqYRFpNCmWUm9ZkSdfPu8T-0nQASuOXf9whAIcBmbJh8mSpTVeeln-9oOSBDCrst0FWV/pubhtml?gid=112319258&single=true">Alle
+        wichtigen Resourcen auf einem Blick</a></strong></p>
+
+    <section id="process-section" class="anchor">
+        <img src="https://docs.google.com/drawings/d/e/2PACX-1vRJOKZJ-Ch_iQxy1Xa8OQWokyQp3fYzZBC-iTxS2q-r1j882zfxKC2tsvWH9CQh5341RODHPX1CmJIO/pub?h=1200"
+             alt="Vereinfachtes Prozessdiagramm">
+    </section>
+
+    <div class="button-row">
+        <a href="downloads/diagram.pdf" class="button-default" download>
+            PDF
+            <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
+        </a>
+
+        <a href="downloads/diagram.jpg" class="button-default" download>
+            JPG
+            <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
+        </a>
+    </div>
+
+    <div class="divider"></div>
+
+    <section id="stakeholder-section" class="anchor">
+        <h2 class="headline">Stakeholder Analysis</h2>
+
+        <div class="table-container">
+            <div class="table-row table-row-top">
+                <div class="cell">Stakeholder</div>
+                <div class="cell">Vorteile</div>
+                <div class="cell">Aufgabe</div>
+                <div class="cell">Zu Beachten</div>
+            </div>
+            <div class="table-row table-row-mid">
+                <p class="cell bold">Betroffene und Kontaktpersonen 1. Grades</p>
+                <p class="cell">Direkte Möglichkeit ihr Anliegen zu melden, keine Warteschleifen in Hotlines.</p>
+                <p class="cell">Das Formular muss selbsterklärend sein oder Hilfe bieten, ggf. Überleitung auf Chatbot
+                    mit allgemeinen Informationen.
+                </p>
+                <p class="cell">Zu beachten</p>
+            </div>
+            <div class="table-row table-row-bottom">
+                <div class="cell"><p class="bold">Meldepflichtige Stellen</p>
+                    <p>(Ärzte / Labore / Krankenhäuser)</p></div>
+                <p class="cell">Bisher handschriftliches Ausfüllen ausgedruckter Meldebögen und Übermittlung per Fax,
+                    zukünftig digitale Übermittlung der Meldung, weniger Aufwand schnellere Abarbeitung</p>
+                <p class="cell">Gute Usability, Hilfemenue nicht erforderlich, Schnittstellen zu Fachprogrammen und für
+                    die elektronische Akte.</p>
+                <p class="cell">Datenschutz
+                    IT-Sicherheit
+                    Informationssicherheit</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="problem-section" class="anchor">
+
+        <div class="header-image">
+            <img height="252px" src="/svg/{{ index .Site.Data.images.hash "open-problems.svg" }}" alt="open problems illustrations">
+        </div>
+
+        <h2 class="headline">Offene Probleme</h2>
+
+        <div class="avatar-row">
+            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash "img_document-process.jpg" }}"/>
+            <div class="avatar-row-column">
+                <h3 class="avatar-row-header">Dokumente & Prozesse angleichen / standardisieren und voneinander
+                    Lernen</h3>
+                <p class="avatar-row-content"> Unterschiedliche Gesundheitsämter rennen zu unterschiedlichen Zeiten in
+                    die gleichen Probleme und
+                    erfinden dann das Rad neu. Beispiel ist der Fragebogen der potenziell Infizierten, und der Aufwand
+                    der mit Template erstellen verbunden ist.Ein weiteres Beispiel ist der Meldebogen nach §6 f.
+                    Infektionsschutzgesetz. Dieser wird landesspezifisch in 16 Bundesländern entwickelt. Inhaltlich
+                    differieren die Formulare nur gering. Das Infektionsschutzgesetzt ist ein Bundesgesetz. Die zu
+                    meldenden Informationen sind im Wesentlichen für alle Bundesländer gleich. Eine Vereinheitlichung
+                    kann die aufzuwendenden Ressourcen für notwendige Anpassungen auf 1/16 reduzieren. Dadurch würde
+                    auch die Umsetzung des Onlinezugangsgesetzes gestützt, wenn der bundeseinheitliche Prozess der
+                    Meldung an das RKI standardisiert online zur Verfügung steht.</p>
+            </div>
+        </div>
+
+        <div class="avatar-row">
+            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash "img_problem.jpg" }}"/>
+            <div class="avatar-row-column">
+                <h3 class="avatar-row-header">Probleme in der aktuellen Lage</h3>
+                <p class="avatar-row-content">Die Anzahl der Meldungen ist erheblich angestiegen. Vor Beginn der Lage
+                    musste nicht eine solche Masse an Daten von den örtlichen Gesundheitsbehörden verarbeitet werden.
+                    Die oftmals selbstgebauten analogen oder teilweise digitalisierten Prozesse reichten aus, die
+                    Bedürfnisse vor Ort und die gesetzlichen Meldepflichten mit den vorhandenen Ressourcen zu
+                    erfüllen.</p>
+                <p class="avatar-row-content">Mit Beginn der Lage sind weitere Stakeholder hinzugekommen. Zum einen die
+                    örtlichen und überörtlichen Krisenstäbe, die tagesaktuelle Daten benötigen, um Entscheidungen
+                    treffen zu können. Die Stellen, in denen die analogen Daten in das System eingepflegt werden, sind
+                    personell nicht zeitnah zu unterstützen. Es handelt sich um dieselben Ressourcen, die parallel auch
+                    die Ermittlung von Kontaktpersonen übernehmen. Es ist offensichtlich, dass hier ein Flaschenhals
+                    entstanden ist, der es kaum noch ermöglicht, die Anforderungen zu erfüllen.Eine weitere Gruppe an
+                    Stakeholdern sind Bürger:innen, die sich Sorgen ob sie sich angesteckt haben. Während vor der Lage
+                    durch Ärzte und Labore die Erkrankungen festgestellt wurden, ist mittlerweile ein zusätzlicher
+                    Eingangskanal entstanden, in dem sich Bürger:innen umfassend direkt an die örtlichen
+                    Gesundheitsbehörden wenden. Eine weitestgehende automatisierte Datenverarbeitung und
+                    Datenübermittlung mit entsprechenden Auswertemöglichkeiten würde einmal die Ressourcen</p>
+            </div>
+        </div>
+
+        <div class="avatar-row">
+            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash "img_policy.jpg" }}"/>
+            <div class="avatar-row-column">
+                <h3 class="avatar-row-header">Datenschutz</h3>
+                <p class="avatar-row-content">Die zu meldenden Daten unterliegen dem Gesundheitsdatenschutz und sind
+                    damit besonders schützenswert. An die Sicherheit der Übertragung von Daten ist ein besonders hoher
+                    Grad an Verschlüsselung anzulegen. Die Daten dürfen nicht in Cloud-Diensten gespeichert werden, die
+                    nicht datenschutzkonform sind. Es empfiehlt sich die Landesdatenschutzbeauftragten und den
+                    Bundesdatenschutzbeauftragten zu beteiligen.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="anchor">
+
+        <div class="header-image">
+            <img height="252px" src="/images/{{ index .Site.Data.images.hash "img_document-process.jpg" }}" alt="open problems illustrations">
+        </div>
+
+        <h2 class="headline">Motivation</h2>
+
+        <p class="header-content">Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein
+            Westfalen und genauer
+            dem Landkreis Soest.</p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="methodology-section" class="anchor">
+
+        <div class="header-image">
+            <img height="252px" src="/svg/{{ index .Site.Data.svg.hash "motivation.svg" }}" alt="open problems illustrations">
+        </div>
+
+        <h2 class="headline">Methodologie</h2>
+
+        <p class="header-content">Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein
+            Westfalen und genauer
+            dem Landkreis Soest.</p>
+    </section>
+
+    <section id="weitere-section" class="anchor">
+
+        <div class="header-image">
+            <img height="252px" src="/svg/{{ index .Site.Data.svg.hash "motivation.svg" }}" alt="open problems illustrations">
+        </div>
+
+        <h2 class="headline">Further Work</h2>
+
+        <p class="header-content">Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein
+            Westfalen und genauer
+            dem Landkreis Soest.</p>
+    </section>
+
+</div>
+
+{{ partial "footer.html" . }}
+
+<script src="/js/{{ index .Site.Data.js.hash "index.js" }}"></script>
+</body>
+</html>

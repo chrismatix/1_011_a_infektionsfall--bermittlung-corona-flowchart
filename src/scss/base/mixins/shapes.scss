@@ -1,0 +1,21 @@
+@mixin circle($width, $color) {
+  width: $width;
+  height: $width;
+  background: $color;
+  border-radius: $width/2;
+}
+
+@mixin borderCircle($width, $borderSize, $borderColor) {
+  width: $width;
+  height: $width;
+  border: solid $borderSize $borderColor;
+  border-radius: ($width + $borderSize)/2;
+}
+
+@mixin ellipsis($max-width) {
+    display: inline-block;
+    max-width: $max-width;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

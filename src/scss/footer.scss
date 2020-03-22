@@ -1,0 +1,30 @@
+@import "./base/index.scss";
+
+footer {
+  margin-top: 100px;
+  height: 86px;
+}
+
+.footer-item-group {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  background: #FFFFFF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.14);
+}
+
+.footer-item {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-item:hover {
+  color: #2D2D2D;
+}
