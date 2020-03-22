@@ -19,6 +19,7 @@
     }
 
     .underline {
+      animation: fadeEffect 0.5s;
       display: none;
       width: 100%;
       margin: 8px auto auto;
@@ -29,7 +30,7 @@
 
 .tab-content {
   margin-top: 32px;
-  animation: fadeEffect 0.5s; /* Fading effect takes 1 second */
+  animation: fadeEffect 0.7s;
 
   display: none;
   &.active {
