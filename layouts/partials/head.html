@@ -7,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Corona Process Overview">
     <title>{{ .Title }}</title>
-    <meta name="description" content="{{ .Description }}">
 
+    <meta name="title" content="{{ .Title }}">
+    <meta name="description" content="{{ .Description }}">
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:url" content="{{ .Site.BaseURL }}">
     <meta property="og:title" content="Corona Process Overview">
     <meta property="og:description"
           content="Übersicht und Problemanalyse der Selbstauskunfts- und Patientenüberwachungsprozesse des Covid-19 Ausbruchs im Rahmen des WirVsVirus Hackathons der Bundesregierung.">
@@ -28,6 +28,10 @@
           content="Übersicht und Problemanalyse der Selbstauskunfts- und Patientenüberwachungsprozesse des Covid-19 Ausbruchs im Rahmen des WirVsVirus Hackathons der Bundesregierung.">
     <meta property="twitter:image"
           content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    {{ if eq (getenv "ENV") "production" }}
+        {{ template "_internal/google_analytics_async.html" . }}
+    {{ end }}
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "index.css" }}" />

@@ -8,26 +8,19 @@
 
     <section id="intro-section" class="anchor">
         <div class="header-image">
-            <img height="220px" src="/images/{{ index .Site.Data.images.hash "header-illustration.jpg" }}">
+            <img height="220px" src="/images/{{ index .Site.Data.images.hash " header-illustration.jpg" }}">
         </div>
 
         <h1 class="headline">Corona Selbstmelde Flow Chart</h1>
 
         <p class="header-content">
-            Wir haben es uns zur Aufgabe gemacht, die verschiedenen staatlichen Prozesse vom ersten Patientenkontakt bis
-            zur
-            Bekanntgabe an das Robert Koch Institut (RKI) zusammenzufassen, aufzubereiten und Vorschläge für
-            Verbesserung zu
-            sammeln.
-            Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein Westfalen und genauer
-            dem
-            Landkreis Soets.
+            {{ i18n "header-content"}}
         </p>
 
     </section>
     <p class="header-content"><strong><a
-            href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQTgBVglAWpRqYRFpNCmWUm9ZkSdfPu8T-0nQASuOXf9whAIcBmbJh8mSpTVeeln-9oOSBDCrst0FWV/pubhtml?gid=112319258&single=true">Alle
-        wichtigen Resourcen auf einem Blick</a></strong></p>
+            href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQTgBVglAWpRqYRFpNCmWUm9ZkSdfPu8T-0nQASuOXf9whAIcBmbJh8mSpTVeeln-9oOSBDCrst0FWV/pubhtml?gid=112319258&single=true">
+        {{ i18n "resources"}}</a></strong></p>
 
     <section id="process-section" class="anchor">
         <img src="https://docs.google.com/drawings/d/e/2PACX-1vRJOKZJ-Ch_iQxy1Xa8OQWokyQp3fYzZBC-iTxS2q-r1j882zfxKC2tsvWH9CQh5341RODHPX1CmJIO/pub?h=1200"
@@ -37,23 +30,23 @@
     <div class="button-row">
         <a href="downloads/diagram.pdf" class="button-default" download>
             PDF
-            <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
+            <img src="/svg/{{ index .Site.Data.images.hash " download.svg" }}" alt="download">
         </a>
 
         <a href="downloads/diagram.jpg" class="button-default" download>
             JPG
-            <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
+            <img src="/svg/{{ index .Site.Data.images.hash " download.svg" }}" alt="download">
         </a>
     </div>
 
     <div class="divider"></div>
 
     <section id="stakeholder-section" class="anchor">
-        <h2 class="headline">Stakeholder Analysis</h2>
+        <h2 class="headline">{{ i18n "stakeholder-header" }}</h2>
 
         <div class="table-container">
             <div class="table-row table-row-top">
-                <div class="cell">Stakeholder</div>
+                <div class="cell">{{ i18n "s-r1-c1" }}</div>
                 <div class="cell">Vorteile</div>
                 <div class="cell">Aufgabe</div>
                 <div class="cell">Zu Beachten</div>
@@ -85,13 +78,15 @@
     <section id="problem-section" class="anchor">
 
         <div class="header-image">
-            <img height="252px" src="/svg/{{ index .Site.Data.images.hash "open-problems.svg" }}" alt="open problems illustrations">
+            <img height="252px" src="/svg/{{ index .Site.Data.images.hash " open-problems.svg" }}" alt="open problems
+            illustrations">
         </div>
 
         <h2 class="headline">Offene Probleme</h2>
 
         <div class="avatar-row">
-            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash "img_document-process.jpg" }}"/>
+            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash "
+                 img_document-process.jpg" }}"/>
             <div class="avatar-row-column">
                 <h3 class="avatar-row-header">Dokumente & Prozesse angleichen / standardisieren und voneinander
                     Lernen</h3>
@@ -109,7 +104,8 @@
         </div>
 
         <div class="avatar-row">
-            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash "img_problem.jpg" }}"/>
+            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash " img_problem.jpg"
+            }}"/>
             <div class="avatar-row-column">
                 <h3 class="avatar-row-header">Probleme in der aktuellen Lage</h3>
                 <p class="avatar-row-content">Die Anzahl der Meldungen ist erheblich angestiegen. Vor Beginn der Lage
@@ -132,7 +128,8 @@
         </div>
 
         <div class="avatar-row">
-            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash "img_policy.jpg" }}"/>
+            <img alt="placeholder" class="row-avatar" src="/images/{{ index .Site.Data.images.hash " img_policy.jpg"
+            }}"/>
             <div class="avatar-row-column">
                 <h3 class="avatar-row-header">Datenschutz</h3>
                 <p class="avatar-row-content">Die zu meldenden Daten unterliegen dem Gesundheitsdatenschutz und sind
@@ -149,7 +146,8 @@
     <section class="anchor">
 
         <div class="header-image">
-            <img height="252px" src="/images/{{ index .Site.Data.images.hash "img_document-process.jpg" }}" alt="open problems illustrations">
+            <img height="252px" src="/images/{{ index .Site.Data.images.hash " img_document-process.jpg" }}" alt="open
+            problems illustrations">
         </div>
 
         <h2 class="headline">Motivation</h2>
@@ -164,7 +162,8 @@
     <section id="methodology-section" class="anchor">
 
         <div class="header-image">
-            <img height="252px" src="/svg/{{ index .Site.Data.svg.hash "motivation.svg" }}" alt="open problems illustrations">
+            <img height="252px" src="/svg/{{ index .Site.Data.svg.hash " motivation.svg" }}" alt="open problems
+            illustrations">
         </div>
 
         <h2 class="headline">Methodologie</h2>
@@ -177,7 +176,8 @@
     <section id="weitere-section" class="anchor">
 
         <div class="header-image">
-            <img height="252px" src="/svg/{{ index .Site.Data.svg.hash "motivation.svg" }}" alt="open problems illustrations">
+            <img height="252px" src="/svg/{{ index .Site.Data.svg.hash " motivation.svg" }}" alt="open problems
+            illustrations">
         </div>
 
         <h2 class="headline">Further Work</h2>
@@ -191,6 +191,8 @@
 
 {{ partial "footer.html" . }}
 
-<script src="/js/{{ index .Site.Data.js.hash "index.js" }}"></script>
-</body>
-</html>
+<script src="/js/{{ index .Site.Data.js.hash " index.js
+" }}"></script>
+<
+/body>
+< /html>

@@ -1,6 +1,7 @@
-baseURL = "https://ranking.weview.tv/"
-languageCode = "de"
+baseURL = "https://coronameldeprozess.de/"
 title = "Corona Prozessmeldung"
 description = "TODO"
 
-# googleAnalytics = "UA-73135173-2"
+googleAnalytics = "UA-129774101-2"
+
+DefaultContentLanguage = "de"

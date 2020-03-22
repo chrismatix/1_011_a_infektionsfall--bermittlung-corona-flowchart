@@ -1,0 +1,18 @@
+[header-content]
+other = "Wir haben es uns zur Aufgabe gemacht, die verschiedenen staatlichen Prozesse vom ersten Patientenkontakt bis zur Bekanntgabe an das Robert Koch Institut (RKI) zusammenzufassen, aufzubereiten und Vorschläge für Verbesserung zu sammeln. Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein Westfalen und genauer dem Landkreis Soets."
+
+[resources]
+other = "Alle wichtigen Resourcen auf einem Blick"
+
+[stakeholder-header]
+other = "Stakeholder Analysis"
+
+# stakeholder tabelle
+[s-r1-c1]
+other = "Stakeholder"
+[s-r1-c1]
+other = "Vorteile"
+[s-r1-c1]
+other = "Aufgabe"
+[s-r1-c1]
+other = "Zu Beachten"
