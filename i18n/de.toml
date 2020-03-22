@@ -110,22 +110,22 @@ Informationssicherheit
 other = "Offene Probleme"
 
 [problem-headers-1]
-other = "Dokumente & Prozesse angleichen/standardisieren und voneinander Lernen"
+other = "Dokumente & Prozesse angleichen/standardisieren und voneinander lernen"
 
 [problem-content-1]
 other = """
 Unterschiedliche Gesundheitsämter rennen zu unterschiedlichen Zeiten in die gleichen Probleme und erfinden dann das Rad neu.
 Ein einfaches Beispiel ist das Script der Abfragen der potenziell Infizierten, auf das jedes Gesundheitsamt neu kommen muss, und der Aufwand der mit dem Erstellen der Templates verbunden ist.
-Ein weiteres Beispiel ist der Meldebogen nach §6 f. Infektionsschutzgesetz. Dieser wird landesspezifisch in 16 Bundesländern entwickelt. Inhaltlich differieren die Formulare nur wenig. Das Infektionsschutzgesetzt ist ein Bundesgesetz. Die zu meldenden Informationen sind im Wesentlichen für alle Bundesländer gleich. Eine Vereinheitlichung kann die aufzuwendenden Ressourcen für notwendige Anpassungen auf 1/16 reduzieren. Dadurch würde auch die Umsetzung des Onlinezugangsgesetzes gestützt, wenn der bundeseinheitliche Prozess der Meldung an das RKI standardisiert online zur Verfügung steht.
+Ein weiteres Beispiel ist der Meldebogen nach §6 f. Infektionsschutzgesetz. Dieser wird landesspezifisch in 16 Bundesländern entwickelt (https://www.rki.de/DE/Content/Infekt/IfSG/Meldeboegen/Meldung_Land/meldung_land_node.html;jsessionid=0C82DAB30A377D974CD3485BE4C69507.internet062). Inhaltlich differieren die Formulare nur wenig. Das Infektionsschutzgesetz ist ein Bundesgesetz. Die zu meldenden Informationen sind im Wesentlichen für alle Bundesländer gleich. Eine Vereinheitlichung kann die aufzuwendenden Ressourcen für notwendige Anpassungen auf 1/16 reduzieren. Dadurch würde auch die Umsetzung des Onlinezugangsgesetzes gestützt, wenn der bundeseinheitliche Prozess der Meldung an das RKI standardisiert online zur Verfügung steht.
 """
 
 [problem-headers-2]
-other = "Probleme in der überlastenden Lage"
+other = "Ursachen für Überlastung: Medienbrüche, manuelle Dateneingabe"
 
 [problem-content-2-1]
 other = """
 Die Anzahl der Meldungen ist erheblich angestiegen. Vor Beginn der Lage musste nicht eine solche Masse an Daten von den örtlichen Gesundheitsbehörden verarbeitet werden. Die oftmals selbstgebauten analogen oder teilweise digitalisierten Prozesse reichten aus, die Bedürfnisse vor Ort und die gesetzlichen Meldepflichten mit den vorhandenen Ressourcen zu erfüllen.
-Mit Beginn der Lage sind weitere Stakeholder hinzugekommen. Zum einen die örtlichen und überörtlichen Krisenstäbe, die tagesaktuelle Daten benötigen, um Entscheidungen treffen zu können. Die Stellen, in denen die analogen Daten in das System eingepflegt werden, sind personell nicht zeitnah zu unterstützen. Es handelt sich um dieselben Ressourcen, die parallel auch die Ermittlung von Kontaktpersonen übernehmen. Es ist offensichtlich, dass hier ein Flaschenhals entstanden ist, der es kaum noch ermöglicht, die Anforderungen zu erfüllen.Eine weitere Gruppe an Stakeholdern sind Bürger:innen, die sich Sorgen ob sie sich angesteckt haben. Während vor der Lage durch Ärzte und Labore die Erkrankungen festgestellt wurden, ist mittlerweile ein zusätzlicher Eingangskanal entstanden, in dem sich Bürger:innen umfassend direkt an die örtlichen Gesundheitsbehörden wenden.
+Mit Beginn der Lage sind weitere Stakeholder hinzugekommen. Zum einen die örtlichen und überörtlichen Krisenstäbe, die tagesaktuelle Daten benötigen, um Entscheidungen treffen zu können. Die Stellen, in denen die analogen Daten in das System eingepflegt werden, sind personell nicht zeitnah zu unterstützen. Es handelt sich um dieselben Ressourcen, die parallel auch die Ermittlung von Kontaktpersonen übernehmen. Es ist offensichtlich, dass hier ein Flaschenhals entstanden ist, der es kaum noch ermöglicht, die Anforderungen zu erfüllen. Eine weitere Gruppe an Stakeholdern sind Bürger:innen, die sich Sorgen ob sie sich angesteckt haben. Während vor der Lage durch Ärzte und Labore die Erkrankungen festgestellt wurden, ist mittlerweile ein zusätzlicher Eingangskanal entstanden, in dem sich Bürger:innen umfassend direkt an die örtlichen Gesundheitsbehörden wenden. Eine weitestgehende automatisierte Datenverarbeitung und Datenübermittlung mit entsprechenden Auswertemöglichkeiten würde die Gesundheitsämter entlasten, sicherstellen, dass Menschen weiterhin beraten und unterstützt werden.
 """
 
 
@@ -152,7 +152,7 @@ other = "Methodologie"
 
 [methodology-content]
 other = """
-Hierzu haben wir zunächst Interviews durchgeführt mit Verantwortlichen in Nordrhein Westfalen, vom Gesundheitsamt und dem Landkreis Soest. Weitere Interviews und ausführliche Recherche von RKI Dokumentation haben den Prozess erweitert. Länder mit hohem Infizierten Anteil wurden für den überlasteten Prozess untersucht und die Prozesse verglichen.
+Weitere Interviews und ausführliche Recherche von RKI Dokumentation haben den Prozess erweitert. Länder mit hohem Infizierten Anteil wurden für den überlasteten Prozess untersucht und die Prozesse verglichen.
 """
 
 
