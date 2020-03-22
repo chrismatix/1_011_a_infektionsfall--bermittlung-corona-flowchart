@@ -9,6 +9,7 @@ import runSequence from "run-sequence";
 import sass from "gulp-sass";
 import svgo from "gulp-svgo";
 import gulp from "gulp";
+import imagemin from "gulp-imagemin";
 import { spawn } from 'child_process';
 import paths from "./paths";
 
@@ -47,6 +48,7 @@ gulp.task('images', function (cb) {
     del(['static/images/**/*']).then(() => {
 
     gulp.src(srcPaths.IMAGES)
+        .pipe(imagemin())
         .pipe(hash())
         .pipe(gulp.dest('static/images'))
         .pipe(hashManifest())

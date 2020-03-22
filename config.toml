@@ -1,5 +1,5 @@
-baseURL = "https://coronameldeprozess.de/"
-title = "Corona Prozessmeldung"
+baseURL = "https://covidmeldeprozess.de/"
+title = "Covidmeldeprozess"
 description = "TODO"
 
 googleAnalytics = "UA-129774101-2"
