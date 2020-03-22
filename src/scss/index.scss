@@ -59,10 +59,12 @@ $bold: 700;
   }
 }
 
+$navbar-height: 70px;
+
 .navbar {
   background: white;
   position: fixed;
-  height: 70px;
+  height: $navbar-height;
   top: 0;
   left: 0;
   right: 0;
