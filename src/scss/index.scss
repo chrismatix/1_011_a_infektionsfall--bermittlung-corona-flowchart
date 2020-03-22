@@ -17,6 +17,48 @@ $bold: 700;
   height: 552px;
 }
 
+
+.intro-container {
+  min-height: 400px;
+  background-color: #C4C1FF;
+  position: relative;
+
+  .header-image {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.intro-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 73px;
+    text-align: center;
+
+    color: #0C00CE;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #0C00CE;
+  }
+}
+
 .navbar {
   background: white;
   position: fixed;
@@ -76,6 +118,16 @@ $bold: 700;
 .anchor {
   margin-top: -50px;
   padding-top: 50px;
+}
+
+.graph-box {
+  background: #FFFFFF;
+  box-shadow: 0 0 20px rgba(63, 61, 86, 0.12);
+  border-radius: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px
 }
 
 .button-row {

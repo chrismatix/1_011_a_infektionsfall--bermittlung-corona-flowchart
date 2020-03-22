@@ -6,20 +6,24 @@
 
 <div class="header">
 
-    <section id="intro-section" class="anchor">
-        <div class="header-image">
-            <img height="220px" src="/images/{{ index .Site.Data.images.hash "header-illustration.jpg" }}">
+    <section id="intro-section" class="intro-container anchor">
+
+        <div class="intro-content">
+            <h1 >{{ .Title }}</h1>
+            <p>
+                {{ i18n "one-liner"}}
+            </p>
         </div>
 
-        <h1 class="headline">Corona Selbstmelde Flow Chart</h1>
-
-        <p class="header-content">
-            {{ i18n "header-content"}}
-        </p>
-
+        <div class="header-image">
+            <img height="220px" src="/images/{{ index .Site.Data.images.hash "preview-header.png" }}">
+        </div>
     </section>
 
     <section id="process-section" class="anchor">
+        <p class="header-content">
+            {{ i18n "header-content"}}
+        </p>
         <div class="tab-container">
             <div id="completeTab" class="tab-links active" onclick="openTab(event)">
                 {{ i18n "diagram-complete"}}
@@ -38,12 +42,12 @@
         <div class="complete tab-content active">
             <img class="diagram" src="images/{{ index .Site.Data.images.hash "diagram-complete.jpg" }}" alt="complete process">
             <div class="button-row">
-                <a href="downloads/diagram.pdf" class="button-default" download>
+                <a href="downloads/diagram.pdf" class="button-default" download="covid_meldeflow_komplett">
                     PDF
                     <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
                 </a>
 
-                <a href="downloads/diagram-complete.jpg" class="button-default" download>
+                <a href="downloads/diagram-complete_h.jpg" class="button-default" download="covid_meldeflow_komplett">
                     JPG
                     <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
                 </a>
@@ -53,12 +57,12 @@
         <div class="normal tab-content">
             <img class="diagram" src="images/{{ index .Site.Data.images.hash "diagram-normal.jpg" }}" alt="process under normal operation">
             <div class="button-row">
-                <a href="downloads/diagram.pdf" class="button-default" download>
+                <a href="downloads/diagram.pdf" class="button-default" download="covid_meldeflow_normal">
                     PDF
                     <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
                 </a>
 
-                <a href="downloads/diagram-normal.jpg" class="button-default" download>
+                <a href="downloads/diagram-normal_h.jpg" class="button-default" download="covid_meldeflow_normal">
                     JPG
                     <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
                 </a>
@@ -68,12 +72,12 @@
         <div class="overload tab-content">
             <img class="diagram" src="images/{{ index .Site.Data.images.hash "diagram-overload.jpg" }}" alt="process under heavy load">
             <div class="button-row">
-                <a href="downloads/diagram.pdf" class="button-default" download>
+                <a href="downloads/diagram.pdf" class="button-default" download="covid_meldeflow_ueberladen">
                     PDF
                     <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
                 </a>
 
-                <a href="downloads/diagram-overload.jpg" class="button-default" download>
+                <a href="downloads/diagram-overload_h.jpg" class="button-default" download="covid_meldeflow_ueberladen">
                     JPG
                     <img src="/svg/{{ index .Site.Data.images.hash "download.svg" }}" alt="download">
                 </a>
@@ -184,6 +188,8 @@
 
         <p class="header-content">{{ i18n "methodology-content" }}</p>
     </section>
+
+    <div class="divider"></div>
 
     <section id="weitere-section" class="anchor">
 
