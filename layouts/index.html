@@ -93,48 +93,50 @@
     <section id="stakeholder-section" class="anchor">
         <h2 class="headline">{{ i18n "stakeholder-header" }}</h2>
 
-        <div class="table-container">
-            <div class="table-row table-row-top">
-                <div class="cell">{{ i18n "s-r1-c1" }}</div>
-                <div class="cell">{{ i18n "s-r1-c2" }}</div>
-                <div class="cell">{{ i18n "s-r1-c3" }}</div>
-                <div class="cell">{{ i18n "s-r1-c4" }}</div>
-            </div>
-            <div class="table-row table-row-mid">
-                <p class="cell">{{ i18n "s-r2-c1" }}</p>
-                <p class="cell">{{ i18n "s-r2-c2" }}</p>
-                <p class="cell">{{ i18n "s-r2-c3" }}</p>
-                <p class="cell">{{ i18n "s-r2-c4" }}</p>
-            </div>
-            <div class="table-row table-row-mid">
-                <p class="cell">{{ i18n "s-r3-c1" }}</p>
-                <p class="cell">{{ i18n "s-r3-c2" }}</p>
-                <p class="cell">{{ i18n "s-r3-c3" }}</p>
-                <p class="cell">{{ i18n "s-r3-c4" }}</p>
-            </div>
-            <div class="table-row table-row-mid">
-                <p class="cell">{{ i18n "s-r4-c1" }}</p>
-                <p class="cell">{{ i18n "s-r4-c2" }}</p>
-                <p class="cell">{{ i18n "s-r4-c3" }}</p>
-                <p class="cell">{{ i18n "s-r4-c4" }}</p>
-            </div>
-            <div class="table-row table-row-mid">
-                <p class="cell">{{ i18n "s-r5-c1" }}</p>
-                <p class="cell">{{ i18n "s-r5-c2" }}</p>
-                <p class="cell">{{ i18n "s-r5-c3" }}</p>
-                <p class="cell">{{ i18n "s-r5-c4" }}</p>
-            </div>
-            <div class="table-row table-row-mid">
-                <p class="cell">{{ i18n "s-r6-c1" }}</p>
-                <p class="cell">{{ i18n "s-r6-c2" }}</p>
-                <p class="cell">{{ i18n "s-r6-c3" }}</p>
-                <p class="cell">{{ i18n "s-r6-c4" }}</p>
-            </div>
-            <div class="table-row table-row-bottom">
-                <p class="cell">{{ i18n "s-r7-c1" }}</p>
-                <p class="cell">{{ i18n "s-r7-c2" }}</p>
-                <p class="cell">{{ i18n "s-r7-c3" }}</p>
-                <p class="cell">{{ i18n "s-r7-c4" }}</p>
+        <div class="table-wrapper">
+            <div class="table-container">
+                <div class="table-row table-row-top">
+                    <div class="cell">{{ i18n "s-r1-c1" }}</div>
+                    <div class="cell">{{ i18n "s-r1-c2" }}</div>
+                    <div class="cell">{{ i18n "s-r1-c3" }}</div>
+                    <div class="cell">{{ i18n "s-r1-c4" }}</div>
+                </div>
+                <div class="table-row table-row-mid">
+                    <p class="cell">{{ i18n "s-r2-c1" }}</p>
+                    <p class="cell">{{ i18n "s-r2-c2" }}</p>
+                    <p class="cell">{{ i18n "s-r2-c3" }}</p>
+                    <p class="cell">{{ i18n "s-r2-c4" }}</p>
+                </div>
+                <div class="table-row table-row-mid">
+                    <p class="cell">{{ i18n "s-r3-c1" }}</p>
+                    <p class="cell">{{ i18n "s-r3-c2" }}</p>
+                    <p class="cell">{{ i18n "s-r3-c3" }}</p>
+                    <p class="cell">{{ i18n "s-r3-c4" }}</p>
+                </div>
+                <div class="table-row table-row-mid">
+                    <p class="cell">{{ i18n "s-r4-c1" }}</p>
+                    <p class="cell">{{ i18n "s-r4-c2" }}</p>
+                    <p class="cell">{{ i18n "s-r4-c3" }}</p>
+                    <p class="cell">{{ i18n "s-r4-c4" }}</p>
+                </div>
+                <div class="table-row table-row-mid">
+                    <p class="cell">{{ i18n "s-r5-c1" }}</p>
+                    <p class="cell">{{ i18n "s-r5-c2" }}</p>
+                    <p class="cell">{{ i18n "s-r5-c3" }}</p>
+                    <p class="cell">{{ i18n "s-r5-c4" }}</p>
+                </div>
+                <div class="table-row table-row-mid">
+                    <p class="cell">{{ i18n "s-r6-c1" }}</p>
+                    <p class="cell">{{ i18n "s-r6-c2" }}</p>
+                    <p class="cell">{{ i18n "s-r6-c3" }}</p>
+                    <p class="cell">{{ i18n "s-r6-c4" }}</p>
+                </div>
+                <div class="table-row table-row-bottom">
+                    <p class="cell">{{ i18n "s-r7-c1" }}</p>
+                    <p class="cell">{{ i18n "s-r7-c2" }}</p>
+                    <p class="cell">{{ i18n "s-r7-c3" }}</p>
+                    <p class="cell">{{ i18n "s-r7-c4" }}</p>
+                </div>
             </div>
         </div>
     </section>
@@ -202,7 +204,12 @@
 
         <h2 class="headline">{{ i18n "further-work-header" }}</h2>
 
-        <iframe src="https://cawemo.com/embed/92f758dc-852d-43bc-bd7b-69c3c781a4a8" style="width:700px;height:500px;border:1px solid #ccc" allowfullscreen></iframe>
+        <div class="hide-desktop">
+            <a href="https://cawemo.com/share/92f758dc-852d-43bc-bd7b-69c3c781a4a8">https://cawemo.com/share/92f758dc-852d-43bc-bd7b-69c3c781a4a8</a>
+        </div>
+        <div class="hide-mobile">
+            <iframe src="https://cawemo.com/embed/92f758dc-852d-43bc-bd7b-69c3c781a4a8" style="width:900px;height:600px;border:1px solid #ccc" allowfullscreen></iframe>
+        </div>
     </section>
 
     <div class="contact-wrapper">

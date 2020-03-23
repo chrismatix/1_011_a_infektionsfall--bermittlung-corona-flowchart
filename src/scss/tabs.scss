@@ -10,7 +10,7 @@
     font-weight: 700;
     font-size: 14px;
 
-    @media (min-width: $bold) {
+    @media (min-width: $mobile-break) {
       margin-left: 24px;
       margin-right: 24px;
       font-size: 16px;
