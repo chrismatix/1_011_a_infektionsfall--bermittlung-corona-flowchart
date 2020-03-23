@@ -1,6 +1,7 @@
 @import "./base/index.scss";
 @import "./footer.scss";
 @import "./tabs.scss";
+@import "variables";
 
 * {
   font-family: Montserrat, sans-serif;
@@ -14,7 +15,11 @@ $bold: 700;
 }
 
 .diagram {
-  height: 552px;
+  width: 100vw;
+
+  @media (min-width: $mobile-break) {
+    height: 552px;
+  }
 }
 
 
@@ -30,6 +35,12 @@ $bold: 700;
     right: 0;
     margin-left: auto;
     margin-right: auto;
+
+    display: none;
+
+    @media (min-width: $mobile-break) {
+      display: block;
+    }
   }
 }
 
@@ -37,6 +48,7 @@ $bold: 700;
   position: absolute;
   left: 0;
   right: 0;
+  top: 50px;
 
   h1 {
     font-size: 50px;
@@ -82,9 +94,13 @@ $navbar-height: 70px;
 }
 
 .navbar-item-group {
-  display: flex;
+  display: none;
   align-items: center;
   min-width: 200px;
+
+  @media (min-width: $mobile-break) {
+    display: flex;
+  }
 }
 
 .navbar-item {
@@ -112,9 +128,16 @@ $navbar-height: 70px;
   border: 1px solid rgba(0, 0, 0, 0.13);
 }
 
-.header {
-  margin-top: 120px;
+.content {
+  margin-top: 70px;
   text-align: center;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  @media (min-width: $mobile-break) {
+    padding: 0;
+  }
 }
 
 .anchor {
@@ -175,8 +198,10 @@ $navbar-height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
   border-radius: 20px;
 
-  margin-left: 136px;
-  margin-right: 136px;
+  @media (min-width: $mobile-break) {
+    margin-left: 136px;
+    margin-right: 136px;
+  }
   margin-top: 80px;
 }
 

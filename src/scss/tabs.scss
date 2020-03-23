@@ -1,3 +1,4 @@
+@import "variables";
 
 .tab-container {
   display: flex;
@@ -5,11 +6,16 @@
   margin-top: 48px;
 
   .tab-links {
-    margin-left: 24px;
-    margin-right: 24px;
     cursor: pointer;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
+
+    @media (min-width: $bold) {
+      margin-left: 24px;
+      margin-right: 24px;
+      font-size: 16px;
+    }
+
     line-height: 20px;
 
     &.active {
